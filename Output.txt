@@ -1,0 +1,41 @@
+ There were 65 offspring organisms that had a crossover
+1) Gene: Body Color
+1.      19 Homozygous Dominant (Brown BB)
+1.      60 Heterozygous Dominant (Brown Bb)
+1.      21 Homozygous Recessive (Yellow bb)
+2) Gene: Eye Color
+2.      28 Homozygous Dominant (Red Eyes EE)
+2.      43 Heterozygous Dominant (Red Eyes Ee)
+2.      29 Homozygous Recessive (White Eyes ee)
+3) Gene: Eye Shape
+3.      21 Homozygous Dominant (Normal Eye Shape SS)
+3.      52 Heterozygous Dominant (Normal Eye Shape Ss)
+3.      27 Homozygous Recessive (Miniature Eye ss)
+4) Gene: Eye Presence
+4.      30 Homozygous Dominant (Eyes Present YY)
+4.      50 Heterozygous Dominant (Eyes Present Yy)
+4.      20 Homozygous Recessive (Eyes Missing yy)
+5) Gene: Wing Shape
+5.      27 Homozygous Dominant (Straight Wings WW)
+5.      56 Heterozygous Dominant (Straight Wings Ww)
+5.      17 Homozygous Recessive (Wrinkled Wings ww)
+6) Gene: Wing Size
+6.      21 Homozygous Dominant (Normal Wing Size VV)
+6.      53 Heterozygous Dominant (Normal Wing Size Vv)
+6.      26 Homozygous Recessive (Vestigial Wings vv)
+7) Gene: Antenna Shape
+7.      22 Homozygous Dominant (Straight AA)
+7.      52 Heterozygous Dominant (Straight Aa)
+7.      26 Homozygous Recessive (Curly aa)
+8) Gene: Antenna Form
+8.      26 Homozygous Dominant (Antennapedia PP)
+8.      50 Heterozygous Dominant (Antennapedia Pp)
+8.      24 Homozygous Recessive (Normal Antenna pp)
+9) Gene: Leg Shape
+9.      31 Homozygous Dominant (Long Legs LL)
+9.      48 Heterozygous Dominant (Long Legs Ll)
+9.      21 Homozygous Recessive (Short Legs ll)
+a) Gene: Head Shape
+a.      27 Homozygous Dominant (Normal Head HH)
+a.      42 Heterozygous Dominant (Normal Head Hh)
+a.      31 Homozygous Recessive (Elongated Head hh)

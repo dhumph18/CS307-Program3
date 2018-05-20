@@ -1,0 +1,276 @@
+<!-- Sample data file for use in the Mendelian Genetics Simulation Program 2      -->
+<!-- Note: This file is not fully compatible with XML standards, but close enough -->
+<!--        for the purposes of this project                                      -->
+
+<MENDELIAN_GENETICS_SIM>
+	<ORGANISM>
+		<GENUS>
+			Drosophila
+		</GENUS>
+		<SPECIES>
+			Melanogaster
+		</SPECIES>
+		<COMMON_NAME>
+			Fruit fly
+		</COMMON_NAME>
+		<CHROMOSOME_COUNT>
+			3
+		</CHROMOSOME_COUNT>
+	</ORGANISM>
+	<GENES>
+		<GENE>
+			<GENE_TRAIT>
+				Eye Color
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Red Eyes
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				E
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				White Eyes
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				e
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				5.2
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Eye Shape
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Normal Eye Shape
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				S
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Miniature Eye
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				s
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				4.3
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Eye Presence
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Eyes Present
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				Y
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Eyes Missing
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				y
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				4.25
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Body Color
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Brown
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				B
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Yellow
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				b
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				5.75
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Wing Shape
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Straight Wings
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				W
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Wrinkled Wings
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				w
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				5.4
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Wing Size
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Normal Wing Size
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				V
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Vestigial Wings
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				v
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				3.4
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Antenna Shape
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Straight
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				A
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Curly
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				a
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				4.25
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Antenna Form
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Antennapedia
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				P
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Normal Antenna
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				p
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				2.75
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Leg Shape
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Long Legs
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				L
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Short Legs
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				l
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				4.25
+			</CROSSOVER_CHANCE>
+		</GENE>
+		<GENE>
+			<GENE_TRAIT>
+				Head Shape
+			</GENE_TRAIT>
+			<DOMINANT_ALLELE>
+				Normal Head
+			</DOMINANT_ALLELE>
+			<DOMINANT_SYMBOL>
+				H
+			</DOMINANT_SYMBOL>
+			<RECESSIVE_ALLELE>
+				Elongated Head
+			</RECESSIVE_ALLELE>
+			<RECESSIVE_SYMBOL>
+				h
+			</RECESSIVE_SYMBOL>
+			<CROSSOVER_CHANCE>
+				2.75
+			</CROSSOVER_CHANCE>
+		</GENE>
+	</GENES>
+	<PARENTS>
+		<PARENT>
+			<CHROMOSOME>
+				<STRAND1>
+					B
+				</STRAND1>
+				<STRAND2>
+					b
+				</STRAND2>
+			</CHROMOSOME>
+			<CHROMOSOME>
+				<STRAND1>
+					E S Y
+				</STRAND1>
+				<STRAND2>
+					e s y
+				</STRAND2>
+			</CHROMOSOME>
+			<CHROMOSOME>
+				<STRAND1>
+					W V A P L H
+				</STRAND1>
+				<STRAND2>
+					w v a p l h
+				</STRAND2>
+			</CHROMOSOME>
+		</PARENT>
+		<PARENT>
+			<CHROMOSOME>
+				<STRAND1>
+					B
+				</STRAND1>
+				<STRAND2>
+					b
+				</STRAND2>
+			</CHROMOSOME>
+			<CHROMOSOME>
+				<STRAND1>
+					E S Y
+				</STRAND1>
+				<STRAND2>
+					e s y
+				</STRAND2>
+			</CHROMOSOME>
+			<CHROMOSOME>
+				<STRAND1>
+					W V A P L H
+				</STRAND1>
+				<STRAND2>
+					w v a p l h
+				</STRAND2>
+			</CHROMOSOME>
+		</PARENT>
+	</PARENTS>
+<MENDELIAN_GENETICS_SIM>
